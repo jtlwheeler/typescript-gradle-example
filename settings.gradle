@@ -1,0 +1,5 @@
+rootProject.name = 'typescript-gradle-example'
+
+include 'client'
+include 'server'
+include 'e2e'

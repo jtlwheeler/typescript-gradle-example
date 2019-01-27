@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Serves client app and API",
+  "main": "server.js",
+  "author": "JT Wheeler",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn build-ts && yarn tslint",
+    "build-ts": "tsc",
+    "clean": "rm -rf dist/",
+    "serve": "node dist/server.js",
+    "start": "yarn serve",
+    "startServerDaemon": "forever start -a -l forever.log -o out.log -e err.log dist/server.js",
+    "stopServerDaemon": "forever stop dist/server.js",
+    "test": "jasmine-ts \"./spec/**/*.spec.ts\"",
+    "tslint": "tslint -c tslint.json -p tsconfig.json",
+    "watch-ts": "tsc -w"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/cors": "^2.8.3",
+    "@types/jasmine": "^2.8.6",
+    "@types/node": "^9.4.0",
+    "@types/supertest": "^2.0.4",
+    "forever": "^0.15.3",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-ts": "^0.2.1",
+    "supertest": "^3.0.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  }
+}

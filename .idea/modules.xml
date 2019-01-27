@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/typescript-gradle-example.iml" filepath="$PROJECT_DIR$/.idea/modules/typescript-gradle-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client/typescript-gradle-example.client.iml" filepath="$PROJECT_DIR$/.idea/modules/client/typescript-gradle-example.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/e2e/typescript-gradle-example.e2e.iml" filepath="$PROJECT_DIR$/.idea/modules/e2e/typescript-gradle-example.e2e.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server/typescript-gradle-example.server.iml" filepath="$PROJECT_DIR$/.idea/modules/server/typescript-gradle-example.server.iml" />
+    </modules>
+  </component>
+</project>
