@@ -5,9 +5,9 @@
   "proxy": "http://localhost:3001",
   "dependencies": {
     "axios": "^0.18.0",
-    "bluebird": "^3.5.1",
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1"
+    "bluebird": "^3.5.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   },
   "scripts": {
     "build": "react-scripts-ts build",
@@ -17,16 +17,16 @@
     "testWatch": "react-scripts-ts test --env=jsdom"
   },
   "devDependencies": {
-    "@types/bluebird": "^3.5.21",
-    "@types/enzyme": "^3.1.9",
-    "@types/enzyme-adapter-react-16": "^1.0.2",
-    "@types/jest": "^22.2.2",
-    "@types/node": "^9.6.2",
-    "@types/react": "^16.3.4",
-    "@types/react-dom": "^16.0.4",
+    "@types/bluebird": "^3.5.25",
+    "@types/enzyme": "^3.1.15",
+    "@types/enzyme-adapter-react-16": "^1.0.3",
+    "@types/jest": "^23.3.13",
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.21",
+    "@types/react-dom": "^16.0.11",
     "@types/sinon": "^7.0.5",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.8.0",
     "react-scripts-ts": "^3.1.0",
     "sinon": "^7.2.3",
     "tslint": "^5.12.1",
