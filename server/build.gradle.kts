@@ -6,7 +6,7 @@ plugins {
 
 tasks {
     register<Delete>("clean") {
-        delete("build", "node_modules")
+        delete("dist", "node_modules")
     }
 
     val javascriptRuntime = arrayOf(
