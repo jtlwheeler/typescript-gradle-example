@@ -1,1 +1,1 @@
-# Typescript Gradle Example
+# TypeScript Gradle Example
